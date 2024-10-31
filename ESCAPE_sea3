@@ -1,8 +1,3 @@
-game.StarterGui:SetCore("SendNotification", {
-    Title = "ESCAPE";
-    Text = "Escape mode has been activated!";
-    Duration = 5;
-})
 local player = game.Players.LocalPlayer
 local character = player.Character or player.CharacterAdded:Wait()
 local humanoid = character:WaitForChild("Humanoid")
